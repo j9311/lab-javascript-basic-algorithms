@@ -1,5 +1,5 @@
 // Iteration 1: Names and Input
-let hacker1 = 'digby';
+let hacker1 = 'rigby';
 console.log `The driver\'s name is ${hacker1}`;
 let hacker2 = 'rigby';
 console.log `The navigator\'s name is ${hacker2}`;
@@ -27,14 +27,16 @@ console.log (newName)
   newString += hacker2[i];
   }
   console.log (newString)
-
+// the last part of three
 let cheese = [hacker1, hacker2]
-cheese.sort
-if (cheese.sort[0] === hacker1){
-  console.log('The driver\'s name goes first.')
+let bread = cheese.sort
+if (bread[0] === hacker1){
+  console.log('The driver\'s name goes first.');
+  
 } else if 
-  (cheese.sort[0] === hacker2){
-    console.log('Yo, the navigator goes first definitely.')
+  (bread[0] === hacker2){
+    console.log('Yo, the navigator goes first definitely.');
+    
   } else {
     console.log('What?! You both have the same name?')
   }
