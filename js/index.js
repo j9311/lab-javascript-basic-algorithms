@@ -16,6 +16,9 @@ console.log `The driver has the longest name, it has ${hacker1.length} character
   }
 
 // Iteration 3: Loops
+
+
+
 let newName = "";
 for (i=0; i < hacker1.length; i++){
   newName += (hacker1[i].toUpperCase() + " ")
@@ -28,6 +31,9 @@ console.log (newName)
   }
   console.log (newString)
 // the last part of three
+
+
+
 let cheese = [hacker1, hacker2]
 let bread = cheese.sort
 if (bread[0] === hacker1){
